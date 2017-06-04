@@ -112,7 +112,7 @@ function searchList() {
     if (filteredSet.length === 0) {
     	$('.page-header h2').text('No Results');
     } else {
-    	$('.page-header h2').text('STUDENTS');
+    	$('.page-header h2').text(filteredSet.length + ' STUDENTS FOUND');
     }
 
     var paginatedSearchResults = pagesOf10(filteredSet);
