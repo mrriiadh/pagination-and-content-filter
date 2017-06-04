@@ -43,12 +43,12 @@ body{
       color: #fff;
     }
 
-    #search-button:hover{
+    .page-header .student-search button:hover{
       cursor: pointer;
     }
 
-    #search-button:active{
-      background: #377b91;
+    .page-header .student-search button:active{
+      background-color: #377b91;
     }
 
 .student-list{}
