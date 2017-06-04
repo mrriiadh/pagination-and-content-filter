@@ -40,7 +40,15 @@ body{
       padding: 8px 15px;
       font-size: 14px;
       background-color: #4ba6c3;
-      color: #fff
+      color: #fff;
+    }
+
+    #search-button:hover{
+      cursor: pointer;
+    }
+
+    #search-button:active{
+      background: #377b91;
     }
 
 .student-list{}
